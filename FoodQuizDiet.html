@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title></title>
+    <script src="index.js"></script>
+</head>
+<body>
+    
+    <h1>Food Quiz</h1>
+    <form id="foodquizsection1" action="FoodQuizPreferences.html">
+        <div>
+            <h1>Section One: Diet</h1>
+            <h2>How often do you eat red meat? Red meat includes beef, lamb, pork, veal, venison, goat, etc.</h2>
+            <h3>Select one from the list</h3>
+            <input type="radio" id="meat1-2" name="meat" value="meat1-2" />
+            <label for="meat1-2">1-2 times per week</label>
+            <br />
+            <input type="radio" id="meat2-3" name="meat" value="meat2-3" />
+            <label for="meat2-3">2-3 times per week</label>
+            <br />
+            <input type="radio" id="meat3+" name="meat" value="meat3+" />
+            <label for="meat3+">More than 3 times per week</label>
+            <br />
+            <input type="radio" id="meatnever1" name="meat" value="meatnever1" />
+            <label for="meatnever1">Never - I'm Vegan</label>
+            <br />
+            <input type="radio" id="meatnever2" name="meat" value="meatnever2" />
+            <label for="meatnever2">Never - I don't like red meat</label>
+
+            <h2>How often do you consume dairy products? Dairy products include milk, cheese, cream, butter, and yogurt.</h2>
+            <h3>Select one from the list</h3>
+            <input type="radio" id="dairy1-2" name="dairy" value="dairy1-2" />
+            <label for="dairy1-2">1-2 times per week</label>
+            <br />
+            <input type="radio" id="dairy2-3" name="dairy" value="dairy2-3" />
+            <label for="dairy2-3">2-3 times per week</label>
+            <br />
+            <input type="radio" id="dairy3+" name="dairy" value="dairy3+" />
+            <label for="dairy3+">More than 3 times per week</label>
+            <br />
+            <input type="radio" id="dairynever1" name="dairy" value="dairynever1" />
+            <label for="dairynever1">Never - I'm Vegan</label>
+            <br />
+            <input type="radio" id="dairynever2" name="dairy" value="dairynever2" />
+            <label for="dairynever2">Never - I'm lactose intolerant</label>
+
+            <h3>Select all that apply to your diet:</h3>
+            <input type="checkbox" id="vegan" name="diet" value="vegan" />
+            <label for="vegan">I am vegan</label>
+            <br />
+            <input type="checkbox" id="vegetarian" name="diet" value="vegetarian" />
+            <label for="vegetarian">I am vegetarian</label>
+            <br />
+            <input type="checkbox" id="pescatarian" name="diet" value="pescatarian" />
+            <label for="vegetarian">I am vegetarian</label>
+            <br />
+            <input type="checkbox" id="norestrictions" name="diet" value="norestrictions" />
+            <label for="norestrictions">I have no dietary restrictions</label>
+            <br />
+            <button onclick="writeFoodQuizDietData()">Next</button>
+
+        </div>
+    </form>
+
+</body>
+</html>
